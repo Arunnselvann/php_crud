@@ -1,17 +1,20 @@
-<?php
- session_start();
- ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LogOut</title>
 </head>
 <body>
-    <h2> welcome </h2>
-    <a type="submit" href="logout.php" value="logout">logout </a>
+    <?php
+    session_start();
+    session_destroy();
+    echo 'You have been logged out';
+    header('location:login.php');
+
+
+    ?>
+    
 </body>
 </html>

@@ -169,7 +169,7 @@ if(isset($_GET['delete'])) {
         <input type="password" name="password">
         <span class="error"> <p><?php echo $passworderr; echo $passwordstrength; ?></p> </span><br>
         <input type="submit" class="btn btn-primary col-lg-3 col-sm-6 left" name="submit" value="submit"> <br>
-        <a class="btn btn-success col-lg-3 col-sm-6 right" href="login.php"> login</a>
+        <a class="btn btn-success col-lg-3 col-sm-6 right" href="login.php" target="_blank"> login</a>
         <br>
     </form>  
     <br>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,6 +109,7 @@ span {
         <br>
         <input type="submit" class="btn btn-success col-lg-3" name="submit" value="submit">
         <br>
+        If you are not a user register here<a type="submit" href="index.php">register</a>
 
     </form>    
     </div>
